@@ -1,0 +1,155 @@
+.navbar {
+  background-color: #2a0cd6;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  }
+ .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+.nav-logo {
+  color: #fff;
+  align-items: center;
+  margin-left: 20px;
+  text-decoration: none;
+  flex-grow: 1
+}
+.nav-menu{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+.nav-links {
+  text-decoration: none;
+  color:#fff;
+  padding: 0.5rem 1rem;
+
+}
+.item{
+  margin-right: 1rem;
+}
+.menu-icon{
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    top: 80px;
+    left:-110%;
+    opacity:1;
+    transition:  all 0.5s ease;
+  }
+  .nav-links {
+    padding:1.5rem;
+    display: table;
+  }
+  .menu-icon{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: translate(-100%,60%);
+    font-size: 1.8rem;
+    
+  }
+}
+.main {
+  background: url('https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?cs=srgb&dl=pexels-errin-casano-2356045.jpg&fm=jpg')
+    no-repeat center/cover;
+  height: 600px;
+}
+
+.main-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+.main-overlay h1 {
+  font-size: 40px;
+  margin-top: -100px;
+}
+.main-overlay p {
+  margin-top: 8px;
+  font-size: 32px;
+}
+
+.card {
+  padding: 30px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.row div {
+  background-color: #0fd0f1;
+  margin-bottom: 30px;
+  padding: 20px;
+  
+}
+
+.row div img {
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #0fbcf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left, .footer-right {
+  display: flex;
+  flex-direction: column;
+  width:30%;
+}
+
+  @media (min-width: 768px) {
+    .row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  
+    .row div img {
+      height: 180px;
+      width: 550px;
+    } 
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+  }
+  .home,
+  .about,
+  .contact,
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }

@@ -1,3 +1,24 @@
+TRAVEL-SITE
+
+This is a simple landing page using React, and react-router-dom for routing.
+
+![image](https://user-images.githubusercontent.com/85622245/137040870-44ff2446-9808-44f6-8b46-bf6dbaa6e57e.png)
+
+
+![image](https://user-images.githubusercontent.com/85622245/137041038-3c8bd1f2-7ddd-434d-8979-a2efdace9ce2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
